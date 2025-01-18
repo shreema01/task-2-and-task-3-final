@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test_Task_2 and Task_3</title>
+    <!-- Font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- tailwind css link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex flex-col h-screen bg-gray-100">
+    <div class="flex h-screen">
+        <!-- First Sidebar -->
+        <aside class="flex flex-col w-28 bg-gray-100 text-gray-700 h-full">
+            <nav class="flex-1 p-4 space-y-4">
+                <i class="fa-solid fa-table fa-2xl block px-6 py-2"></i>
+                <a href="#" class="block px-3 py-2 rounded-lg hover:bg-gray-500">ড্যাশবোর্ড</a>
+                <i class="fa-solid fa-book fa-2xl block px-6 py-2"></i>
+                <a href="#" class="block px-3 py-2 rounded-lg hover:bg-gray-500">আবেদন</a>
+                <i class="fa-solid fa-desktop fa-2xl block px-5 py-2"></i>
+                <a href="#" class="block px-3 py-2 rounded-lg hover:bg-gray-500">আবেদনের ডেস্ক</a>
+            </nav>
+        </aside>
+    
+        <!-- Second Sidebar -->
+        <aside class="flex flex-col w-full md:w-60 bg-gray-50 text-gray-700 h-screen">
+            <nav class="flex-1 p-4 space-y-4">
+              <div class="flex justify-center md:justify-start items-center">
+                <img src="images/header.png" class="h-auto w-full max-w-xs md:max-w-full px-2 md:px-4" alt="Header Image">
+              </div>
+            </nav>
+          </aside>
+          
+      
+    
+        <!-- Main Content Start -->
+        <div class="flex flex-col flex-1">
+            <!-- Header -->
+            <header class="flex items-center justify-between bg-white text-black p-4">
+                <div class="flex items-center">
+                    <i class="fa-solid fa-bars fa-2xl mx-4 cursor-pointer"></i>
+                </div>
+                <div class="flex items-center bg-gray-100 p-2 rounded-lg">
+                    <i class="fa-solid fa-user fa-2xl mr-2"></i>
+                    <div class="flex flex-col text-base">
+                        <p>মো.সালাউদ্দিন</p>
+                        <p>মাইগভ টিম, ইয়াং প্রফেশনাল</p>
+                    </div>
+                    <i class="fa-solid fa-angle-down fa-xl ml-2"></i>
+                </div>
+            </header>
+    
+            <!-- First Section  -->
+            <main class=" flex-1 p-4">
+                <div class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-6 w-full">
+                    <div class="flex flex-col justify-between bg-white h-44 rounded-none p-4 font-bold border border-white-600 text-base my-3.5">
+                        <div class="flex items-center justify-between">
+                            <p>পি.সি.সি</p>
+                      
+                            <i class="fa-solid fa-arrow-up fa-xl" style="color: #16500f;"></i> 
+                          
+                        </div>
+                        <div class="flex items-center justify-between gap-2 mt-2">
+                            <i class="fa-regular fa-file fa-xl px-6 py-2"></i>
+                        <p>১৫৪</p>
+                        </div>
+                    </div>
+                </div>   
+               
+             <!-- Second Section  -->
+                <div class="flex flex-row justify-start gap-0.5">
+                  <div class="flex flex-col items-center gap-4 w-full"> 
+            <!-- Second Section portion  -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 w-full">
+                <div class="flex flex-col justify-between bg-white h-44 rounded-none p-4 font-bold border border-white-600 text-base">
+                    <div class="flex items-center justify-between">
+                        <p>অপেক্ষমান</p>
+                        <i class="fa-solid fa-arrow-up fa-xl" style="color: #16500f;"></i>
+                    </div>
+                    <div class="flex items-center justify-between gap-2 mt-2">
+                        <i class="fa-regular fa-file-lines fa-xl px-6 py-2"></i>
+                        <p>৬</p>
+                    </div>
+                </div>
+                <div class="flex flex-col justify-between bg-white h-44 rounded-none p-4 font-bold border border-white-600 text-base">
+                    <div class="flex items-center justify-between">
+                        <p>অসম্পূর্ণ</p>
+                        <i class="fa-solid fa-arrow-up fa-xl" style="color: #16500f;"></i>
+                    </div>
+                    <div class="flex items-center justify-between gap-2 mt-2">
+                        <i class="fa-regular fa-file-excel fa-xl px-6 py-2"></i>
+                        <p>০</p>
+                    </div>
+                </div>
+                <div class="flex flex-col justify-between bg-white h-44 rounded-none p-4 font-bold border border-white-600 text-base">
+                    <div class="flex items-center justify-between">
+                        <p>তৈরিকৃত অ্যাপোস্টিল</p>
+                        <i class="fa-solid fa-arrow-up fa-xl" style="color: #16500f;"></i>
+                    </div>
+                    <div class="flex items-center justify-between gap-2 mt-2">
+                        <i class="fa-regular fa-file-pdf fa-xl px-6 py-2"></i>
+                        <p>১৪</p>
+                    </div>
+                </div>
+                <div class="flex flex-col justify-between bg-white h-44 rounded-none p-4 font-bold border border-white-600 text-base">
+                    <div class="flex items-center justify-between">
+                        <p>নিষ্পত্তিকৃত</p>
+                        <i class="fa-solid fa-arrow-up fa-xl" style="color: #16500f;"></i>
+                    </div>
+                    <div class="flex items-center justify-between gap-2 mt-2">
+                        <i class="fa-solid fa-file-circle-check fa-xl px-6 py-2"></i>
+                        <p>১৪৮</p>
+                    </div>
+                </div>
+                <div class="flex flex-col justify-between bg-white h-44 rounded-none p-4 font-bold border border-white-600 text-base">
+                    <div class="flex items-center justify-between">
+                        <p>মোট আবেদন</p>
+                        <i class="fa-solid fa-arrow-up fa-xl" style="color: #16500f;"></i>
+                    </div>
+                    <div class="flex items-center justify-between gap-2 mt-2">
+                        <i class="fa-solid fa-print fa-xl px-6 py-2"></i>
+                        <p>১৫৪</p>
+                    </div>
+                </div>
+            </div> 
+        
+            <!-- Third Section(Main) -->
+
+             <!-- boro box r div -->
+              <!-- 15.01.25 Analysis start -->
+<div class="flex sm:flex-1 md:flex-2 lg:flex-3 flex-col justify-between bg-white h-60 w-full rounded-none p-2 font-bold border border-white-600 text-base">
+
+                <!-- First portion of Third Section(Complete) -->
+                <div class="flex sm:flex-1 md:flex-2 lg:flex-3 flex-row gap-2 w-full"> 
+                  
+                    <div class="flex flex-col justify-start bg-white h-14 w-80 rounded-lg p-4 font-bold border border-white-600 text-base">
+                        <div class="flex items-center justify-between">
+                            <p>আবেদন নম্বর দ্বারা</p>
+                            <i class="fa-solid fa-angle-down fa-xl"></i>
+                   </div>
+                    </div>
+                
+                   
+                    <div class="flex flex-col justify-start bg-white h-14 w-80 rounded-lg p-4 font-bold border border-white-600 text-base">
+                        <div class="flex items-center justify-between">
+                            <p>আবেদন খুঁজুন</p>
+                            
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Testing for table contant -->
+                <table class="table-auto w-full border-collapse">
+                    <thead>
+                        <tr class="bg-gray-100">
+                            <th class="px-4 py-2 text-left">প্রতীকচিহ্ন</th>
+                            <th class="px-4 py-2 text-left">ক্রমিক</th>
+                            <th class="px-4 py-2 text-left">সেবার নাম</th>
+                            <th class="px-4 py-2 text-left">আবেদনের তথ্য</th>
+                            <th class="px-4 py-2 text-left">সিদ্ধান্ত</th>
+                           
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Row 1 -->
+                        <tr class="bg-white">
+                            <td class="px-4 py-2"><i class="fa-solid fa-box fa-xl"></i></td>
+                            <td class="px-4 py-2">১</td>
+                            <td class="px-4 py-2">পুলিশ ক্লিয়ারেন্স সার্টিফিকেট এর জন্য আবেদন (আবেদন নম্বর: 16YLTJJ)</td>
+                            <td class="px-4 py-2">
+                                    <p class="text-base font-bold">MD FORID MIAH</p>
+                                    <p class="text-base text-black-600">২০২৫-০১-০৭ ইং</p>
+                                
+                            </td>
+                            
+                            <td class="px-4 py-2">
+                                <button id="openModal" class="px-6 py-3 text-white bg-white-100 rounded-lg hover:bg-white-200">
+                                    <i class="fa-solid fa-file-arrow-up fa-xl" style="color: #166f16;"></i>
+                                </button>
+
+                                <!-- pop up funtionality -->
+
+                                <div id="myModal" class="fixed inset-0 bg-black bg-opacity-50 hidden flex justify-center items-center">
+                                    <div id="modalContent" class="relative bg-white px-6 py-6 rounded-lg w-2/3 h-5/6 ease-in-out duration-200">
+                                              
+                                      <div class="flex justify-between items-center m-2">
+                                          <i class="fa-solid fa-users-rectangle fa-lg"> যাচাই করুন </i>
+                                          <button id="closeModal" class="bg-white p-4 rounded-md flex items-center justify-center w-12 h-12 border border-gray hover:bg-gray-200">
+                                              <i class="fa-solid fa-circle-xmark fa-lg" style="color: #c80d0d;"></i>
+                                          </button>
+                                          
+                                       </div>
+          
+                                      <div class="flex sm:flex-1 md:flex-2 lg:flex-3 flex-row gap-2 w-full m-2"> 
+                                         
+                                          <div class="flex flex-col justify-start bg-gray-100 h-14 w-full rounded-sm p-4 font-bold border border-white-600 text-lg">
+                                              <div class="flex items-center justify-between">
+                                                  <p>শিক্ষা বোর্ডের ডাটাবেজ</p>
+                                                  <p>সত্যয়নের জন্য সংযুক্ত সার্টিফিকেট</p>
+                                              </div>
+                                          </div>
+                                      </div>
+                             
+                        
+          
+          
+                          <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 m-2 w-full"> 
+                              
+                              <div class="mr-4">
+                                  <p>পরীক্ষার নাম নির্বাচন করুন:</p>
+                                  <div class="flex flex-col justify-start bg-white h-14 w-56 rounded-sm p-3 m-2 font-bold border border-white-600 text-base">
+                                      <div class="flex items-center justify-between">
+                                          <p>SSC</p>
+                                          <i class="fa-solid fa-angle-down fa-xl"></i>
+                                      </div>
+                                  </div>
+                              </div> 
+                          
+                             
+                              <div  class="mr-4">
+                                  <p>বোর্ডের নাম:</p>
+                                  <div class="flex flex-col justify-start bg-white h-14 w-56 rounded-sm p-4 m-2 font-bold border border-white-600 text-base">
+                                      <div class="flex items-center justify-between">
+                                          <p></p>
+                                      </div>
+                                  </div>
+                              </div>
+                          
+                              
+                              <div  class="mr-4">
+                                  <p>রোল নম্বর:</p>
+                                  <div class="flex flex-col justify-start bg-white h-14 w-56 rounded-sm p-4 m-2 font-bold border border-white-600 text-base">
+                                      <div class="flex items-center justify-between">
+                                          <p></p>
+                                      </div>
+                                  </div>
+                              </div>
+                          
+                              
+                               <div class="mr-4">
+                                  <p>রেজিষ্ট্রেশন নম্বর:</p>
+                                  <div class="flex flex-col justify-start bg-white h-14 w-56 rounded-sm p-4 m-2 font-bold border border-white-600 text-base">
+                                      <div class="flex items-center justify-between">
+                                          <p></p>
+                                      </div>
+                                  </div>
+                              </div> 
+                          
+                              
+                              <div  class="mr-4">
+                                  <p>পাসের বছর:</p>
+                                  <div class="flex flex-col justify-start bg-white h-14 w-56 rounded-sm p-4 m-2 font-bold border border-white-600 text-base">
+                                      <div class="flex items-center justify-between">
+                                          <p></p>
+                                      </div>
+                                  </div>
+                              </div>
+                          
+                              
+                              <div class="flex flex-col justify-start bg-lime-600 h-14 w-36 rounded-sm p-4  mr-4 m-8 font-bold border border-white-600 text-base" >
+          
+                                  <div class="flex text-white px-1 mx-1 items-center justify-between">
+                                      <p> যাচাই করুন </p>
+                                    
+                                  </div>
+                              </div>
+          
+                          </div>
+          
+                          <!-- New testing portion -->
+          
+                       <div class="flex flex-row justify-center bg-white m-2 h-2/3">   
+                              <!-- Box-1 -->
+                              <div class="flex flex-col justify-start bg-white h-5/6 w-1/2 rounded-sm  p-2 m-2 m-2 font-bold border border-gray-200 text-base ">
+                                  <div class="flex items-center justify-between">
+                                      <p>Data Not Found</p>
+                                  </div>
+                              </div>  
+                         <!-- Box-2 -->
+                          
+                          <div class="flex flex-col justify-start bg-white h-5/6 w-1/2 rounded-sm m-2 font-bold border border-gray-200 text-base">
+                            <div class="flex items-center justify-between h-full w-full">
+                        
+                            <div class="relative w-full h-full">
+                              <div class="flex overflow-hidden h-full"> 
+                                <!-- Slide 1 -->
+                                <div class="carousel-item min-w-full h-full">
+                                  <img src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?cs=srgb&dl=pexels-anjana-c-169994-674010.jpg&fm=jpg" alt="Image 1" class="p-0 w-full h-full object-cover rounded-sm">
+                                </div>  
+                                <!-- Slide 2 -->
+                               <div class="carousel-item min-w-full h-full hidden">
+                                  <img src="https://th.bing.com/th/id/OIG3.Z11n1VN6NRw.IXOddq9X">
+                                </div> 
+                                <!-- Slide 3 -->
+                                <div class="carousel-item min-w-full h-full hidden">
+                                  <img src="https://t3.ftcdn.net/jpg/06/15/49/68/360_F_615496890_W34yB8VDE6n5pehb5QCt1ek5oEvRo9qA.jpg" alt="Image 3" class="p-0 w-full h-full object-cover rounded-sm">
+                                </div>
+
+                                  <!-- Slide 4 -->
+                                 <div class="carousel-item min-w-full h-full hidden">
+                                    <img src="https://img.freepik.com/premium-photo/wide-angle-shot-single-tree-growing-clouded-sky-sunset-surrounded-by-grass_181624-22807.jpg" alt="Image 4" class="p-0 w-full h-full object-cover rounded-sm">
+                                  </div>
+
+                                  <!-- Slide 5 -->
+                                 <div class="carousel-item min-w-full h-full hidden">
+                                    <img src="https://t3.ftcdn.net/jpg/05/28/86/66/360_F_528866602_aiVwnOnkooTrqo3MgicCf83SVVzt1Gnd.jpg" alt="Image 4" class="p-0 w-full h-full object-cover rounded-sm">
+                                  </div>
+
+                                  <!-- Slide 6 -->
+                                 <div class="carousel-item min-w-full h-full hidden">
+                                    <img src="https://thumbs.dreamstime.com/b/autumn-nature-landscape-colorful-forest-autumn-nature-landscape-colorful-forest-morning-sunlight-131400332.jpg" alt="Image 4" class="p-0 w-full h-full object-cover rounded-sm">
+                                  </div>
+
+                                  <!-- Slide 7 -->
+                                 <div class="carousel-item min-w-full h-full hidden">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ_2oII-AssPFNOvcLQ6ecJ6ZWQlUbKU3j8w&s" alt="Image 4" class="p-0 w-full h-full object-cover rounded-sm">
+                                  </div>
+
+                                  <!-- Slide 8 -->
+                                 <div class="carousel-item min-w-full h-full hidden">
+                                    <img src="https://live.staticflickr.com/7235/6916888998_e71e0c2e43_h.jpg" alt="Image 4" class="p-0 w-full h-full object-cover rounded-sm">
+                                  </div>
+                                  <!-- Slide 9 -->
+                                 <div class="carousel-item min-w-full h-full hidden">
+                                    <img src="https://i.pinimg.com/736x/6c/6f/89/6c6f8911a7a0ddd816b2c66a24aaa60c.jpg" alt="Image 4" class="p-0 w-full h-full object-cover rounded-sm">
+                                  </div>
+
+                                  <!-- Slide 10-->
+                                 <div class="carousel-item min-w-full h-full hidden">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBrfnXuqYyTl_ESnQjERuTBG7J6NoUFmFpCgxZ4c8urHkuZlwwz3fYHl0JuN4gE72ejOo&usqp=CAU" alt="Image 4" class="p-0 w-full h-full object-cover rounded-sm">
+                                  </div>
+                              </div>
+                        
+                              <!-- Carousel Controls -->
+        
+                              <button class="prev absolute top-1/2 left-4 transform -translate-y-1/2 bg-gray-100 text-black p-2 rounded-full hover:bg-gray-100 w-10 h-10 flex items-center justify-center">
+                                  &#8249;
+                              </button>
+                              <button class="next absolute top-1/2 right-4 transform -translate-y-1/2 bg-gray-100 text-black p-2 rounded-full hover:bg-gray-100 w-10 h-10 flex items-center justify-center">
+                                  &#8250;
+                              </button>
+                             
+                            </div>
+                        
+                          </div>
+                        </div>
+                        
+                      
+                  </div> 
+                      
+          
+          
+                          <!-- Testing last portion -->
+          
+                          <!-- new test -->
+                           <div class="absolute bottom-0 right-0 p-3">
+                              <div class="flex justify-end items-end gap-0.5">
+                                  <div class="flex flex-row justify-start bg-gray-200 h-14 w-56 rounded-lg p-4 font-bold border border-white-600 text-base mx-2">
+                                      <div class="flex items-center justify-between gap-x-2">
+                                          <i class="fa-regular fa-circle-xmark fa-lg"></i>
+                                          <p> বাতিল করা হয়েছে</p>
+                                      </div>
+                                  </div>
+                                  <div class="flex flex-row justify-start bg-white h-14 w-60 rounded-none p-4 font-bold border border-white-600 text-base mx-2">
+                                      <div class="flex items-center justify-between gap-x-2">
+                                          <i class="fa-solid fa-user fa-lg"></i>
+                                          <p> অ্যাপোস্টিল তৈরি করুন</p>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>  
+                                      
+                                    
+                              
+                        </div>
+          
+                      </div>         
+                    
+                               
+                                  
+           </div>
+                            </td>
+                        </tr>
+                
+                        <!-- Row 2 -->
+                        <tr class="bg-white">
+                            <td class="px-4 py-2"><i class="fa-solid fa-box fa-xl"></i></td>
+                            <td class="px-4 py-2">২</td>
+                            <td class="px-4 py-2">পুলিশ ক্লিয়ারেন্স সার্টিফিকেট এর জন্য আবেদন (আবেদন নম্বর: 16YLTJJ)</td>
+                            <td class="px-4 py-2">
+                                <p class="text-base font-bold">MD FORID MIAH</p>
+                                <p class="text-base text-black-600">২০২৫-০১-০৭ ইং</p>
+                            
+                        </td>
+                            <td class="px-4 py-2">
+                                <button id="openModal1" class="px-6 py-3 text-white bg-white-100 rounded-lg hover:bg-white-200">
+                                    <i class="fa-solid fa-file-arrow-up fa-xl" style="color: #166f16;"></i>
+                                </button>
+
+                                <!-- pop up funtionality -->
+
+                                <div id="myModal" class="fixed inset-0 bg-black bg-opacity-50 hidden flex justify-center items-center">
+                                    <div id="modalContent" class="relative bg-white px-6 py-6 rounded-lg w-2/3 h-5/6 ease-in-out duration-200">
+                                              
+                                      <div class="flex justify-between items-center m-2">
+                                          <i class="fa-solid fa-users-rectangle fa-lg"> যাচাই করুন </i>
+                                          <button id="closeModal" class="bg-white p-4 rounded-md flex items-center justify-center w-12 h-12 border border-gray hover:bg-gray-200">
+                                              <i class="fa-solid fa-circle-xmark fa-lg" style="color: #c80d0d;"></i>
+                                          </button>
+                                          
+                                       </div>
+          
+                                      <div class="flex sm:flex-1 md:flex-2 lg:flex-3 flex-row gap-2 w-full m-2"> 
+                                         
+                                          <div class="flex flex-col justify-start bg-gray-100 h-14 w-full rounded-sm p-4 font-bold border border-white-600 text-lg">
+                                              <div class="flex items-center justify-between">
+                                                  <p>শিক্ষা বোর্ডের ডাটাবেজ</p>
+                                                  <p>সত্যয়নের জন্য সংযুক্ত সার্টিফিকেট</p>
+                                              </div>
+                                          </div>
+                                      </div>
+                             
+                        
+          
+          
+                          <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 m-2 w-full"> 
+                              
+                              <div class="mr-4">
+                                  <p>পরীক্ষার নাম নির্বাচন করুন:</p>
+                                  <div class="flex flex-col justify-start bg-white h-14 w-56 rounded-sm p-3 m-2 font-bold border border-white-600 text-base">
+                                      <div class="flex items-center justify-between">
+                                          <p>SSC</p>
+                                          <i class="fa-solid fa-angle-down fa-xl"></i>
+                                      </div>
+                                  </div>
+                              </div> 
+                          
+                             
+                              <div  class="mr-4">
+                                  <p>বোর্ডের নাম:</p>
+                                  <div class="flex flex-col justify-start bg-white h-14 w-56 rounded-sm p-4 m-2 font-bold border border-white-600 text-base">
+                                      <div class="flex items-center justify-between">
+                                          <p></p>
+                                      </div>
+                                  </div>
+                              </div>
+                          
+                              
+                              <div  class="mr-4">
+                                  <p>রোল নম্বর:</p>
+                                  <div class="flex flex-col justify-start bg-white h-14 w-56 rounded-sm p-4 m-2 font-bold border border-white-600 text-base">
+                                      <div class="flex items-center justify-between">
+                                          <p></p>
+                                      </div>
+                                  </div>
+                              </div>
+                          
+                              
+                               <div class="mr-4">
+                                  <p>রেজিষ্ট্রেশন নম্বর:</p>
+                                  <div class="flex flex-col justify-start bg-white h-14 w-56 rounded-sm p-4 m-2 font-bold border border-white-600 text-base">
+                                      <div class="flex items-center justify-between">
+                                          <p></p>
+                                      </div>
+                                  </div>
+                              </div> 
+                          
+                              
+                              <div  class="mr-4">
+                                  <p>পাসের বছর:</p>
+                                  <div class="flex flex-col justify-start bg-white h-14 w-56 rounded-sm p-4 m-2 font-bold border border-white-600 text-base">
+                                      <div class="flex items-center justify-between">
+                                          <p></p>
+                                      </div>
+                                  </div>
+                              </div>
+                          
+                              
+                              <div class="flex flex-col justify-start bg-lime-600 h-14 w-36 rounded-sm p-4  mr-4 m-8 font-bold border border-white-600 text-base" >
+          
+                                  <div class="flex text-white px-1 mx-1 items-center justify-between">
+                                      <p> যাচাই করুন </p>
+                                    
+                                  </div>
+                              </div>
+          
+                          </div>
+          
+                          <!-- New testing portion -->
+          
+                       <div class="flex flex-row justify-center bg-white m-2 h-2/3">   
+                              <!-- Box-1 -->
+                              <div class="flex flex-col justify-start bg-white h-5/6 w-1/2 rounded-sm  p-2 m-2 m-2 font-bold border border-gray-200 text-base ">
+                                  <div class="flex items-center justify-between">
+                                      <p>Data Not Found</p>
+                                  </div>
+                              </div>  
+                         <!-- Box-2 -->
+                          
+                          <div class="flex flex-col justify-start bg-white h-5/6 w-1/2 rounded-sm m-2 font-bold border border-gray-200 text-base">
+                            <div class="flex items-center justify-between h-full w-full">
+                        
+                            <div class="relative w-full h-full">
+                              <div class="flex overflow-hidden h-full"> 
+                                <!-- Slide 1 -->
+                                <div class="carousel-item min-w-full h-full">
+                                  <img src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?cs=srgb&dl=pexels-anjana-c-169994-674010.jpg&fm=jpg" alt="Image 1" class="p-0 w-full h-full object-cover rounded-sm">
+                                </div>  
+                                <!-- Slide 2 -->
+                               <div class="carousel-item min-w-full h-full hidden">
+                                  <img src="https://th.bing.com/th/id/OIG3.Z11n1VN6NRw.IXOddq9X">
+                                </div> 
+                                <!-- Slide 3 -->
+                                <div class="carousel-item min-w-full h-full hidden">
+                                  <img src="https://t3.ftcdn.net/jpg/06/15/49/68/360_F_615496890_W34yB8VDE6n5pehb5QCt1ek5oEvRo9qA.jpg" alt="Image 3" class="p-0 w-full h-full object-cover rounded-sm">
+                                </div>
+                              </div>
+                        
+                              <!-- Carousel Controls -->
+        
+                              <button class="prev absolute top-1/2 left-4 transform -translate-y-1/2 bg-gray-100 text-black p-2 rounded-full hover:bg-gray-100 w-10 h-10 flex items-center justify-center">
+                                  &#8249;
+                              </button>
+                              <button class="next absolute top-1/2 right-4 transform -translate-y-1/2 bg-gray-100 text-black p-2 rounded-full hover:bg-gray-100 w-10 h-10 flex items-center justify-center">
+                                  &#8250;
+                              </button>
+                             
+                            </div>
+                        
+                          </div>
+                        </div>
+                        
+                      
+                  </div> 
+                      
+          
+          
+                          <!-- Testing last portion -->
+          
+                          <!-- new test -->
+                           <div class="absolute bottom-0 right-0 p-3">
+                              <div class="flex justify-end items-end gap-0.5">
+                                  <div class="flex flex-row justify-start bg-gray-200 h-14 w-56 rounded-lg p-4 font-bold border border-white-600 text-base mx-2">
+                                      <div class="flex items-center justify-between gap-x-2">
+                                          <i class="fa-regular fa-circle-xmark fa-lg"></i>
+                                          <p> বাতিল করা হয়েছে</p>
+                                      </div>
+                                  </div>
+                                  <div class="flex flex-row justify-start bg-white h-14 w-60 rounded-none p-4 font-bold border border-white-600 text-base mx-2">
+                                      <div class="flex items-center justify-between gap-x-2">
+                                          <i class="fa-solid fa-user fa-lg"></i>
+                                          <p> অ্যাপোস্টিল তৈরি করুন</p>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>  
+                                      
+                                    
+                              
+                        </div>
+          
+                      </div>         
+                    
+                               
+                                  
+           </div>
+                            </td>
+                        </tr>
+                
+                        <!-- Row 3 -->
+                        <tr class="bg-white">
+                            <td class="px-4 py-2"><i class="fa-solid fa-box fa-xl"></i></td>
+                            <td class="px-4 py-2">৩</td>
+                            <td class="px-4 py-2">পুলিশ ক্লিয়ারেন্স সার্টিফিকেট এর জন্য আবেদন (আবেদন নম্বর: 16YLTJJ)
+                            </td>
+                          <td class="px-4 py-2">
+                                <p class="text-base font-bold">MD FORID MIAH</p>
+                                <p class="text-base text-black-600">২০২৫-০১-০৭ ইং</p>
+                            
+                        </td>
+                            <td class="px-4 py-2">
+                                <button id="openModal2" class="px-6 py-3 text-white bg-white-100 rounded-lg hover:bg-white-200">
+                                    <i class="fa-solid fa-file-arrow-up fa-xl" style="color: #166f16;"></i>
+                                </button>
+
+
+                                <!-- pop up funtionality -->
+
+                                <div id="myModal" class="fixed inset-0 bg-black bg-opacity-50 hidden flex justify-center items-center">
+                                    <div id="modalContent" class="relative bg-white px-6 py-6 rounded-lg w-2/3 h-5/6 ease-in-out duration-200">
+                                              
+                                      <div class="flex justify-between items-center m-2">
+                                          <i class="fa-solid fa-users-rectangle fa-lg"> যাচাই করুন </i>
+                                          <button id="closeModal" class="bg-white p-4 rounded-md flex items-center justify-center w-12 h-12 border border-gray hover:bg-gray-200">
+                                              <i class="fa-solid fa-circle-xmark fa-lg" style="color: #c80d0d;"></i>
+                                          </button>
+                                          
+                                       </div>
+          
+                                      <div class="flex sm:flex-1 md:flex-2 lg:flex-3 flex-row gap-2 w-full m-2"> 
+                                         
+                                          <div class="flex flex-col justify-start bg-gray-100 h-14 w-full rounded-sm p-4 font-bold border border-white-600 text-lg">
+                                              <div class="flex items-center justify-between">
+                                                  <p>শিক্ষা বোর্ডের ডাটাবেজ</p>
+                                                  <p>সত্যয়নের জন্য সংযুক্ত সার্টিফিকেট</p>
+                                              </div>
+                                          </div>
+                                      </div>
+                             
+                        
+          
+          
+                          <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 m-2 w-full"> 
+                              
+                              <div class="mr-4">
+                                  <p>পরীক্ষার নাম নির্বাচন করুন:</p>
+                                  <div class="flex flex-col justify-start bg-white h-14 w-56 rounded-sm p-3 m-2 font-bold border border-white-600 text-base">
+                                      <div class="flex items-center justify-between">
+                                          <p>SSC</p>
+                                          <i class="fa-solid fa-angle-down fa-xl"></i>
+                                      </div>
+                                  </div>
+                              </div> 
+                          
+                             
+                              <div  class="mr-4">
+                                  <p>বোর্ডের নাম:</p>
+                                  <div class="flex flex-col justify-start bg-white h-14 w-56 rounded-sm p-4 m-2 font-bold border border-white-600 text-base">
+                                      <div class="flex items-center justify-between">
+                                          <p></p>
+                                      </div>
+                                  </div>
+                              </div>
+                          
+                              
+                              <div  class="mr-4">
+                                  <p>রোল নম্বর:</p>
+                                  <div class="flex flex-col justify-start bg-white h-14 w-56 rounded-sm p-4 m-2 font-bold border border-white-600 text-base">
+                                      <div class="flex items-center justify-between">
+                                          <p></p>
+                                      </div>
+                                  </div>
+                              </div>
+                          
+                              
+                               <div class="mr-4">
+                                  <p>রেজিষ্ট্রেশন নম্বর:</p>
+                                  <div class="flex flex-col justify-start bg-white h-14 w-56 rounded-sm p-4 m-2 font-bold border border-white-600 text-base">
+                                      <div class="flex items-center justify-between">
+                                          <p></p>
+                                      </div>
+                                  </div>
+                              </div> 
+                          
+                              
+                              <div  class="mr-4">
+                                  <p>পাসের বছর:</p>
+                                  <div class="flex flex-col justify-start bg-white h-14 w-56 rounded-sm p-4 m-2 font-bold border border-white-600 text-base">
+                                      <div class="flex items-center justify-between">
+                                          <p></p>
+                                      </div>
+                                  </div>
+                              </div>
+                          
+                              
+                              <div class="flex flex-col justify-start bg-lime-600 h-14 w-36 rounded-sm p-4  mr-4 m-8 font-bold border border-white-600 text-base" >
+          
+                                  <div class="flex text-white px-1 mx-1 items-center justify-between">
+                                      <p> যাচাই করুন </p>
+                                    
+                                  </div>
+                              </div>
+          
+                          </div>
+          
+                          <!-- New testing portion -->
+          
+                       <div class="flex flex-row justify-center bg-white m-2 h-2/3">   
+                              <!-- Box-1 -->
+                              <div class="flex flex-col justify-start bg-white h-5/6 w-1/2 rounded-sm  p-2 m-2 m-2 font-bold border border-gray-200 text-base ">
+                                  <div class="flex items-center justify-between">
+                                      <p>Data Not Found</p>
+                                  </div>
+                              </div>  
+                         <!-- Box-2 -->
+                          
+                          <div class="flex flex-col justify-start bg-white h-5/6 w-1/2 rounded-sm m-2 font-bold border border-gray-200 text-base">
+                            <div class="flex items-center justify-between h-full w-full">
+                        
+                            <div class="relative w-full h-full">
+                              <div class="flex overflow-hidden h-full"> 
+                                <!-- Slide 1 -->
+                                <div class="carousel-item min-w-full h-full">
+                                  <img src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?cs=srgb&dl=pexels-anjana-c-169994-674010.jpg&fm=jpg" alt="Image 1" class="p-0 w-full h-full object-cover rounded-sm">
+                                </div>  
+                                <!-- Slide 2 -->
+                               <div class="carousel-item min-w-full h-full hidden">
+                                  <img src="https://th.bing.com/th/id/OIG3.Z11n1VN6NRw.IXOddq9X">
+                                </div> 
+                                <!-- Slide 3 -->
+                                <div class="carousel-item min-w-full h-full hidden">
+                                  <img src="https://t3.ftcdn.net/jpg/06/15/49/68/360_F_615496890_W34yB8VDE6n5pehb5QCt1ek5oEvRo9qA.jpg" alt="Image 3" class="p-0 w-full h-full object-cover rounded-sm">
+                                </div>
+                                  <!-- Slide 4 -->
+                                <!-- <div class="carousel-item min-w-full h-full hidden">
+                                    <img src="https://img.freepik.com/premium-photo/wide-angle-shot-single-tree-growing-clouded-sky-sunset-surrounded-by-grass_181624-22807.jpg" alt="Image 4" class="p-0 w-full h-full object-cover rounded-sm">
+                                  </div> -->
+                              </div>
+                        
+                              <!-- Carousel Controls -->
+        
+                              <button class="prev absolute top-1/2 left-4 transform -translate-y-1/2 bg-gray-100 text-black p-2 rounded-full hover:bg-gray-100 w-10 h-10 flex items-center justify-center">
+                                  &#8249;
+                              </button>
+                              <button class="next absolute top-1/2 right-4 transform -translate-y-1/2 bg-gray-100 text-black p-2 rounded-full hover:bg-gray-100 w-10 h-10 flex items-center justify-center">
+                                  &#8250;
+                              </button>
+                             
+                            </div>
+                        
+                          </div>
+                        </div>
+                        
+                      
+                  </div> 
+                      
+          
+          
+                          <!-- Testing last portion -->
+          
+                          <!-- new test -->
+                           <div class="absolute bottom-0 right-0 p-3">
+                              <div class="flex justify-end items-end gap-0.5">
+                                  <div class="flex flex-row justify-start bg-gray-200 h-14 w-56 rounded-lg p-4 font-bold border border-white-600 text-base mx-2">
+                                      <div class="flex items-center justify-between gap-x-2">
+                                          <i class="fa-regular fa-circle-xmark fa-lg"></i>
+                                          <p> বাতিল করা হয়েছে</p>
+                                      </div>
+                                  </div>
+                                  <div class="flex flex-row justify-start bg-white h-14 w-60 rounded-none p-4 font-bold border border-white-600 text-base mx-2">
+                                      <div class="flex items-center justify-between gap-x-2">
+                                          <i class="fa-solid fa-user fa-lg"></i>
+                                          <p> অ্যাপোস্টিল তৈরি করুন</p>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>  
+                                      
+                                    
+                              
+                        </div>
+          
+                      </div>         
+                    
+                               
+                                  
+           </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+
+
+                
+                    <!-- Sobar nicher box -->
+
+
+                    <div class="flex sm:flex-1 md:flex-2 lg:flex-3 flex-col w-full h-64 bg-white-100 p-4 mx-4">
+                  
+                        <div class="flex flex-1 justify-end  bottom-0 right-0 items-end gap-0.5">
+                           
+                            <div class="flex flex-row justify-start bg-white h-14 w-40 rounded-none p-4 font-bold border border-white-600 text-base mx-2">
+                                <div class="flex items-center justify-between">
+                                    <i class="fa-solid fa-angles-left fa-xl"></i>
+                                    <p>পূর্ববর্তী</p>
+                                    
+                                </div>
+                            </div>
+    
+                           
+                            <div class="flex flex-row justify-end bg-white h-14 w-12 rounded-none p-4 font-bold border border-white-600 text-base mx-2">
+                                <div class="flex items-center justify-between">
+                                    <p>১</p>
+                                </div>
+                            </div>
+                    
+                           
+                            <div class="flex flex-row justify-end bg-white h-14 w-40 rounded-none p-4 font-bold border border-white-600 text-base mx-2">
+                                <div class="flex items-center justify-between">
+                                    <p>পরবর্তী</p>
+                                    <i class="fa-solid fa-angles-right fa-xl"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+            
+</div>
+                
+              
+
+
+
+
+       
+            </main>
+     </div>
+    </div>
+     
+
+    <!-- Footer -->
+     <footer class="flex flex-col sm:flex-row bg-gray-100 text-black mt-auto">
+        <div class="flex flex-col sm:flex-row sm:justify-between items-center px-4 w-full">
+            <div class="flex items-center justify-center sm:justify-center mb-4 sm:mb-0">
+                <img src="images/manchitro.png" class="h-12 mr-4" alt="Logo">
+                
+                <div class="text-center
+                sm:text-center">
+                    <p class="text-base">কপিরাইট©২০২৪ সর্বস্বত্ব সংরক্ষিত</p>
+                    <p class="text-base">গনপ্রজাতন্ত্রী বাংলাদেশ সরকার</p>
+                </div>
+            </div>
+            <div class="flex items-center justify-center sm:justify-center">
+                <div class="text-center mr-4 sm:text-left">
+                    <p class="text-base">পরিকল্পনা বাস্তবায়নে</p>
+                </div>
+                <img src="images/footer.png" class="h-12" alt="Footer Image">
+            </div>
+        </div>
+    </footer>
+
+    <!-- 1st carousel portion script  -->
+     <script>
+   
+
+    
+        const slides = document.querySelectorAll('.carousel-item');
+        let currentIndex = 0;
+      
+        function showSlide(index) {
+          if (index < 0) index = slides.length - 1;
+          if (index >= slides.length) index = 0;
+      
+          slides.forEach((slide, i) => {
+            slide.classList.add('hidden');
+            if (i === index) {
+              slide.classList.remove('hidden');
+            }
+          });
+      
+          currentIndex = index;
+        }
+      
+        document.querySelector('.prev').addEventListener('click', () => {
+          showSlide(currentIndex - 1);
+        });
+      
+        document.querySelector('.next').addEventListener('click', () => {
+          showSlide(currentIndex + 1);
+        });
+      
+        showSlide(currentIndex);
+    
+
+<!--Without carousel portion script  -->
+
+ 
+
+        
+    const openModalButton   = document.getElementById("openModal");
+     const closeModalButton  = document.getElementById("closeModal");
+    const modal             = document.getElementById("myModal");
+    const modalContent      = document.getElementById("modalContent");
+
+
+  
+
+     openModalButton.onclick = () => 
+     {
+         modalContent.classList.remove('scale-100')
+         modalContent.classList.add('scale-75')
+         modal.classList.remove("hidden")
+         setTimeout(()=>{
+             modalContent.classList.remove('scale-75')
+             modalContent.classList.add('scale-100')
+         },200)
+     };
+    closeModalButton.onclick = () => modal.classList.add("hidden"); 
+</script> 
+            
+
+   
+
+
+</body>
+</html>
