@@ -37,19 +37,36 @@
         <!-- Main Content Start -->
         <div class="flex flex-col flex-1">
             <!-- Header -->
-            <header class="flex items-center justify-between bg-white text-black p-4">
+            <header class="flex items-center justify-between bg-white text-black p-4 shadow-md">
+                <!-- Left Section: Hamburger Menu -->
                 <div class="flex items-center">
-                    <i class="fa-solid fa-bars fa-2xl mx-4 cursor-pointer"></i>
+                  <i class="fa-solid fa-bars fa-2xl mx-4 cursor-pointer"></i>
                 </div>
+              
+                <!-- Right Section: User Info with Dropdown -->
                 <div class="flex items-center bg-gray-100 p-2 rounded-lg">
-                    <i class="fa-solid fa-user fa-2xl mr-2"></i>
-                    <div class="flex flex-col text-base">
-                        <p>মো.সালাউদ্দিন</p>
-                        <p>মাইগভ টিম, ইয়াং প্রফেশনাল</p>
-                    </div>
-                    <i class="fa-solid fa-angle-down fa-xl ml-2"></i>
+                  <i class="fa-solid fa-user fa-2xl mr-2"></i>
+                  <div class="flex flex-col text-base mr-2">
+                    <p>মো.সালাউদ্দিন</p>
+                    <p>মাইগভ টিম, ইয়াং প্রফেশনাল</p>
+
+                  </div>
+                  <!-- Dropdown with Select -->
+                  <div class="relative">
+                    <select
+                      class="appearance-none bg-gray-100 text-black border-none text-base rounded-lg py-1 pl-2 pr-8 cursor-pointer focus:outline-none"
+                    >
+                      <option value="profile">প্রোফাইল</option>
+                      <option value="settings">সেটিংস</option>
+                      <option value="logout">লগআউট</option>
+                    </select>
+                    <!-- Custom Arrow Icon -->
+                    <span class="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
+                      <i class="fa-solid fa-angle-down fa-lg text-gray-500"></i>
+                    </span>
+                  </div>
                 </div>
-            </header>
+              </header>
     
             <!-- First Section  -->
             <main class=" flex-1 p-4">
