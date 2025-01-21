@@ -16,15 +16,7 @@
     <div class="flex h-screen">
 
         <!-- First Sidebar -->
-        <aside id="firstSidebar" class="flex flex-col w-28 bg-gray-100 text-gray-700 h-full md:block hidden">
-            <nav class="flex-1 p-4 space-y-4">
-                <i class="fa-solid fa-table fa-2xl block px-6 py-2"></i>
-                <a href="#" class="block px-3 py-2 rounded-lg hover:bg-gray-500">ড্যাশবোর্ড</a>
-            </nav>
-        </aside> 
-    
-
-        <!-- <aside class="flex flex-col w-32 bg-gray-100 text-gray-700 h-full">
+        <aside class="flex flex-col w-32 bg-gray-100 text-gray-700 h-full">
             <nav class="flex-1 p-4 space-y-4">
                 <i class="fa-solid fa-table fa-2xl block px-6 py-2"></i>
                 <a href="#" class="block px-3 py-2 rounded-lg hover:bg-gray-300">ড্যাশবোর্ড</a>
@@ -33,43 +25,30 @@
                 <i class="fa-solid fa-desktop fa-2xl block px-5 py-2"></i>
                 <a href="#" class="block px-3 py-2 rounded-lg hover:bg-gray-300">আবেদনের ডেস্ক</a>
             </nav>
-        </aside> -->
+        </aside>
     
         <!-- Second Sidebar -->
-        <aside id="secondSidebar" class="flex flex-col w-full md:w-60 bg-gray-50 text-gray-700 h-screen md:block hidden">
-            <nav class="flex-1 p-4">
-                <div class="flex flex-col items-center">
-                    <img src="images/header.png" class="h-auto max-w-full px-0" alt="Header Image">
-                    <p class="mt-4 text-lg font-bold text-start">-ড্যাশবোর্ড</p>
-                </div>
-            </nav>
-        </aside>
+       
 
-
-        <!-- <aside class="flex flex-col w-full md:w-60 bg-gray-50 text-gray-700 h-screen">
+         <aside class="flex flex-col w-full md:w-60 bg-gray-50 text-gray-700 h-screen">
             <nav class="flex-1 p-4 space-y-4">
               <div class="flex justify-center md:justify-start items-center">
                 <img src="images/header.png" class="h-auto w-full max-w-xs md:max-w-full px-2 md:px-4" alt="Header Image">
               </div>
             </nav>
-          </aside> -->
+          </aside>
         
         <!-- Main Content Start -->
         <div class="flex flex-col flex-1">
 
             <!-- Header -->
-            <header class="flex items-center justify-between bg-white text-black p-4 shadow-md"> 
+           
+             <header class="flex items-center justify-between bg-white text-black p-4 shadow-md"> 
 
                 <!-- Left Section: Menu -->
-                 <div class="flex items-center">
-                    <i class="fa-solid fa-bars fa-2xl mx-4 cursor-pointer" id="sidebarToggle"></i>
-                </div>
-            <!-- <header class="flex items-center justify-between bg-white text-black p-4 shadow-md"> -->
-
-                <!-- Left Section: Menu -->
-                <!-- <div class="flex items-center">
+                <div class="flex items-center">
                   <i class="fa-solid fa-bars fa-2xl mx-4 cursor-pointer"></i>
-                </div> -->
+                </div>
               
                 <!-- Right Section: User Info with Dropdown -->
                 <div class="flex items-center bg-gray-100 p-2 rounded-lg">
@@ -1042,6 +1021,16 @@
          },200)
      };
     closeModalButton.onclick = () => modal.classList.add("hidden"); 
+
+  
+        document.getElementById("sidebarToggle").addEventListener("click", function() {
+            const firstSidebar = document.getElementById("firstSidebar");
+            const secondSidebar = document.getElementById("secondSidebar");
+    
+            firstSidebar.classList.toggle("hidden");
+            secondSidebar.classList.toggle("hidden");
+        });
+   
 </script> 
             
 
