@@ -867,9 +867,21 @@
                                   </span>
                                 </div>
                               </div> -->
-                              
+                              <div class="flex flex-col justify-start bg-white h-14 w-20 rounded-none p-2.5 font-bold border border-gray-200 text-base">
+                                <div class="relative flex items-center justify-between">
+                                    <select
+                                        class="appearance-none bg-gray font-bold text-base w-full h-full border-none focus:outline-none focus:ring-0" tabindex="-1">
+                                        <option value="১" selected>১</option>
+                                    </select>
+                                    
+                                    <span class="absolute inset-y-0 right-2 flex items-center pointer-events-none">
+                                        <i class="fa-solid fa-angle-down fa-xl text-gray-500"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            
 
-                             <div class="flex flex-col justify-start bg-white h-14 w-20 rounded-none  p-2.5 font-bold border border-gray-200 text-base">
+                            <!-- <div class="flex flex-col justify-start bg-white h-14 w-20 rounded-none  p-2.5 font-bold border border-gray-200 text-base">
                                 <div class="relative flex items-center justify-between">
                                  
                                   <select
@@ -883,7 +895,7 @@
                                   </span>
                                 </div>
                               </div> 
-                           
+                            -->
                             <div class="flex flex-row justify-end bg-white h-14 w-40 rounded-none p-4 font-bold border border-white-600 text-base mx-2">
                                 <div class="flex items-center justify-between">
                                     <p>পরবর্তী</p>
@@ -1047,6 +1059,13 @@
             firstSidebar.classList.toggle("hidden");
             secondSidebar.classList.toggle("hidden");
         });
+
+        // remove the focus when popup is opening
+    window.onload = function() {
+        document.querySelector('select').blur();
+    };
+
+
    
 </script> 
             
