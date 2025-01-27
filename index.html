@@ -20,7 +20,7 @@
 </head>
 
 <body >
-    <div class="flex overflow-hidden">
+<div class="flex overflow-hidden">
 
         <!-- Fixed Sidebar Container -->
         <div  class="hidden md:flex fixed top-0 left-0 h-screen">
@@ -490,10 +490,10 @@
             </div>
         </footer>
     </div>
-    
-     <script>
-
-const toggleBtn = document.querySelector('.toggle-btn');
+     
+    <!-- Java Script Implementation start -->
+    <script>
+    const toggleBtn = document.querySelector('.toggle-btn');
     const sidebar = document.querySelector('.sidebar');
     const overlay = document.querySelector('.overlay');
 
@@ -509,44 +509,40 @@ const toggleBtn = document.querySelector('.toggle-btn');
 
 
     const carousel = document.getElementById('carousel');
-  const slides = document.querySelectorAll('.carousel-item');
-  const prevBtn = document.getElementById('prev');
-  const nextBtn = document.getElementById('next');
-  const totalSlides = slides.length;
-  let currentSlide = 0;
+    const slides = document.querySelectorAll('.carousel-item');
+    const prevBtn = document.getElementById('prev');
+    const nextBtn = document.getElementById('next');
+    const totalSlides = slides.length;
+    let currentSlide = 0;
 
   // Ensure all slides are equal in width
-  slides.forEach(slide => {
+    slides.forEach(slide => {
     slide.style.width = `${100 / totalSlides}%`;
-  });
-  carousel.style.width = `${100 * totalSlides}%`;
+    });
+    carousel.style.width = `${100 * totalSlides}%`;
 
   // Update carousel position
-  const updateCarousel = () => {
+    const updateCarousel = () => {
     const offset = -currentSlide * (100 / totalSlides); // Calculate percentage-based translation
     carousel.style.transform = `translateX(${offset}%)`;
-  };
+    };
 
   // Navigate to the previous slide
-  prevBtn.addEventListener('click', () => {
+    prevBtn.addEventListener('click', () => {
     currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
     updateCarousel();
-  });
+    });
 
   // Navigate to the next slide
-  nextBtn.addEventListener('click', () => {
+    nextBtn.addEventListener('click', () => {
     currentSlide = (currentSlide + 1) % totalSlides;
     updateCarousel();
-  });
-
+    });
         
     const openModalButton   = document.getElementById("openModal");
     const closeModalButton  = document.getElementById("closeModal");
     const modal             = document.getElementById("myModal");
     const modalContent      = document.getElementById("modalContent");
-
-
-  
 
      openModalButton.onclick = () => 
      {
@@ -574,8 +570,6 @@ const toggleBtn = document.querySelector('.toggle-btn');
         document.querySelector('select').blur();
     };
 
-
-   
 </script> 
             
 
