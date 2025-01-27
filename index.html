@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/style/index.css">
 
     <!-- Font awesome cdn link -->
-     
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Important link(2) -->
@@ -332,16 +332,48 @@
               <div class="relative rounded-sm border border-gray-200 overflow-hidden">
                 <!-- Carousel Wrapper -->
                 <div id="carousel" class="flex transition-transform duration-300 ease-in-out">
+                  <!-- First image (larger size) -->
+                  <div class="carousel-item w-2/3 flex-shrink-0">
+                    <img src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg" alt="Image 1" class="object-cover w-full h-full">
+                  </div>
+                  
+                  <!-- Second image -->
+                  <div class="carousel-item w-1/3 flex-shrink-0">
+                    <img src="https://media.istockphoto.com/id/1403500817/photo/the-craggies-in-the-blue-ridge-mountains.jpg?s=612x612&w=0&k=20&c=N-pGA8OClRVDzRfj_9AqANnOaDS3devZWwrQNwZuDSk=" alt="Image 2" class="object-cover w-full h-full">
+                  </div>
+                  
+                  <!-- Third image -->
+                  <div class="carousel-item w-1/3 flex-shrink-0">
+                    <img src="https://media.istockphoto.com/id/1317323736/photo/a-view-up-into-the-trees-direction-sky.jpg?s=612x612&w=0&k=20&c=i4HYO7xhao7CkGy7Zc_8XSNX_iqG0vAwNsrH1ERmw2Q=" alt="Image 3" class="object-cover w-full h-full">
+                  </div>
+                  <!-- New test for sloving the slide issue sloving -->
+                   <!-- First image (larger size) -->
+                  <div class="carousel-item w-2/3 flex-shrink-0">
+                    <img src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg" alt="Image 1" class="object-cover w-full h-full">
+                  </div>
+                  
+                  <!-- Second image -->
+                  <div class="carousel-item w-1/3 flex-shrink-0">
+                    <img src="https://media.istockphoto.com/id/1403500817/photo/the-craggies-in-the-blue-ridge-mountains.jpg?s=612x612&w=0&k=20&c=N-pGA8OClRVDzRfj_9AqANnOaDS3devZWwrQNwZuDSk=" alt="Image 2" class="object-cover w-full h-full">
+                  </div>
+                  
+                  <!-- Third image -->
+                  <div class="carousel-item w-1/3 flex-shrink-0">
+                    <img src="https://media.istockphoto.com/id/1317323736/photo/a-view-up-into-the-trees-direction-sky.jpg?s=612x612&w=0&k=20&c=i4HYO7xhao7CkGy7Zc_8XSNX_iqG0vAwNsrH1ERmw2Q=" alt="Image 3" class="object-cover w-full h-full">
+                  </div>
+                </div>
+                
+                <!-- <div id="carousel" class="flex transition-transform duration-300 ease-in-out">
                   <div class="carousel-item w-full flex-shrink-0">
                     <img src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg" alt="Image 1" class="object-cover w-full ">
                   </div>
                   <div class="carousel-item w-full flex-shrink-0">
-                    <img src="https://images.pexels.com/photos/1005324/pexels-photo-1005324.jpeg" alt="Image 2" class="object-cover w-full ">
+                    <img src="https://media.istockphoto.com/id/1403500817/photo/the-craggies-in-the-blue-ridge-mountains.jpg?s=612x612&w=0&k=20&c=N-pGA8OClRVDzRfj_9AqANnOaDS3devZWwrQNwZuDSk=" alt="Image 2" class="object-cover w-full ">
                   </div>
                   <div class="carousel-item w-full flex-shrink-0">
-                    <img src="https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg" alt="Image 3" class="object-cover w-full ">
+                    <img src="https://media.istockphoto.com/id/1317323736/photo/a-view-up-into-the-trees-direction-sky.jpg?s=612x612&w=0&k=20&c=i4HYO7xhao7CkGy7Zc_8XSNX_iqG0vAwNsrH1ERmw2Q=" alt="Image 3" class="object-cover w-full ">
                   </div>
-                </div>
+                </div> -->
                 <!-- Carousel Controls -->
                 <button id="prev" class="absolute top-1/2 left-4 transform -translate-y-1/2 bg-gray-100 text-black p-2 rounded-full hover:bg-gray-200">&#8249;</button>
                 <button id="next" class="absolute top-1/2 right-4 transform -translate-y-1/2 bg-gray-100 text-black p-2 rounded-full hover:bg-gray-200">&#8250;</button>
@@ -352,11 +384,11 @@
           <!-- Footer -->
           <div class="flex justify-end items-center gap-4">
             <div class="flex bg-gray-200 rounded-lg px-4 py-2 font-bold border border-gray-200 text-base">
-              <i class="fa-regular fa-circle-xmark text-red-600 mr-2"></i>
+              <i class="fa-regular fa-circle-xmark text-red-600 m-1"></i>
               <p>বাতিল করা হয়েছে</p>
             </div>
             <div class="flex bg-white rounded-sm px-4 py-2 font-bold border border-gray-200 text-base">
-              <i class="fa-solid fa-user fa-lg mr-2"></i>
+              <i class="fa-solid fa-user fa-lg m-2 p-0.5"></i>
               <p>অ্যাপোস্টিল তৈরি করুন</p>
             </div>
           </div>
