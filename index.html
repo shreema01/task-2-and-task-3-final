@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task-2 and Task-3 Final Output</title>
 
-   
     <!-- Link the css file -->
     <link rel="stylesheet" href="/style/index.css">
 
@@ -224,248 +223,119 @@
                    
                 </div>
 
+               <!-- Testing for table content -->
+<table class="table-auto w-full border-collapse">
+  <thead>
+      <tr class="bg-gray-100">
+          <th class="px-4 py-2 text-left">প্রতীকচিহ্ন</th>
+          <th class="px-4 py-2 text-left">ক্রমিক</th>
+          <th class="px-4 py-2 text-left">সেবার নাম</th>
+          <th class="px-4 py-2 text-left">আবেদনের তথ্য</th>
+          <th class="px-4 py-2 text-left">সিদ্ধান্ত</th>
+      </tr>
+  </thead>
+  <tbody>
 
-                <!-- Testing for table contant -->
-                <table class="table-auto w-full border-collapse">
-                    <thead>
-                        <tr class="bg-gray-100">
-                            <th class="px-4 py-2 text-left">প্রতীকচিহ্ন</th>
-                            <th class="px-4 py-2 text-left">ক্রমিক</th>
-                            <th class="px-4 py-2 text-left">সেবার নাম</th>
-                            <th class="px-4 py-2 text-left">আবেদনের তথ্য</th>
-                            <th class="px-4 py-2 text-left">সিদ্ধান্ত</th>
-                        </tr>
-                    </thead>
-                    <tbody>
+      <!-- Row 1 -->
+      <tr class="bg-white">
+          <td class="px-4 py-2">
+              <i class="fa-solid fa-box fa-xl"></i>
+          </td>
+          <td class="px-4 py-2">১</td>
+          <td class="px-4 py-2">
+              পুলিশ ক্লিয়ারেন্স সার্টিফিকেট এর জন্য আবেদন (আবেদন নম্বর: 16YLTJJ)
+          </td>
+          <td class="px-4 py-2">
+              <p class="text-base font-bold">MD FORID MIAH</p>
+              <p class="text-base text-black-600">২০২৫-০১-০৭ ইং</p>
+          </td>
+          <td class="px-4 py-2">
+              <!-- Icon of popup functionality -->
+              <button id="openModal" class="px-6 py-3 text-white bg-white-100 rounded-lg hover:bg-white-200">
+                  <i class="fa-solid fa-file-arrow-up fa-xl" style="color: #166f16;"></i>
+              </button>
 
-                        <!-- Row 1 -->
-<tr class="bg-white">
-    <td class="px-4 py-2">
-      <i class="fa-solid fa-box fa-xl"></i>
-    </td>
-    <td class="px-4 py-2">১</td>
-    <td class="px-4 py-2">
-      পুলিশ ক্লিয়ারেন্স সার্টিফিকেট এর জন্য আবেদন (আবেদন নম্বর: 16YLTJJ)
-    </td>
-    <td class="px-4 py-2">
-      <p class="text-base font-bold">MD FORID MIAH</p>
-      <p class="text-base text-black-600">২০২৫-০১-০৭ ইং</p>
-    </td>
-    <td class="px-4 py-2">
-
-      <!-- Icon of popup functionality -->
-      <button id="openModal" class="px-6 py-3 text-white bg-white-100 rounded-lg hover:bg-white-200">
-        <i class="fa-solid fa-file-arrow-up fa-xl" style="color: #166f16;"></i>
-      </button>
-  
-      <!-- Popup functionality -->
-      <div id="myModal" class="fixed inset-0 bg-black bg-opacity-50 hidden flex justify-center items-center overflow-hidden">
-        <div id="modalContent" class="relative bg-white px-6 py-6 rounded-lg w-4/5 lg:w-2/3 h-5/6 ease-in-out duration-200 overflow-auto">
-
-          <!-- Header -->
-          <div class="flex justify-between items-center mb-4">
-            <span class="flex items-center gap-2">
-              <i class="fa-solid fa-users-rectangle fa-lg"></i> যাচাই করুন
-            </span>
-            <button id="closeModal" class="bg-white p-4 rounded-md flex items-center justify-center w-12 h-12 border border-gray-200 hover:bg-gray-200">
-              <i class="fa-solid fa-circle-xmark fa-lg text-red-600"></i>
-            </button>
-          </div>
-      
-          <!-- Content -->
-          <div class="flex flex-col bg-gray-100 rounded-sm p-4 font-bold text-lg mb-4">
-            <div class="flex justify-between">
-              <p>শিক্ষা বোর্ডের ডাটাবেজ</p>
-              <p>সত্যয়নের জন্য সংযুক্ত সার্টিফিকেট</p>
-            </div>
-          </div>
-      
-          <!-- Form Section -->
-          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
-            <div>
-              <p class="text-base font-bold mb-2">পরীক্ষার নাম  :</p>
-              <div class="relative bg-white rounded-sm border border-gray-200">
-                <select class="appearance-none bg-white text-base w-full h-12 px-2 focus:outline-none cursor-pointer">
-                  <option value="SSC" selected>SSC</option>
-                </select>
-
-                <span class="absolute inset-y-0 right-3 flex items-center pointer-events-none">
-                  <i class="fa-solid fa-angle-down fa-lg text-gray-500"></i>
-                </span>
-
+              <!-- Popup functionality -->
+              <div id="myModal" class="fixed inset-0 bg-black bg-opacity-50 hidden flex justify-center items-center overflow-hidden">
+                  <div id="modalContent" class="relative bg-white px-6 py-6 rounded-lg w-4/5 lg:w-2/3 h-5/6 ease-in-out duration-200 overflow-auto">
+                      <!-- Modal content here -->
+                  </div>
               </div>
-            </div>
+          </td>
+      </tr>
 
-            <div>
-              <p class="text-base font-bold mb-2">বোর্ডের নাম:</p>
-              <input class="bg-white h-12 rounded-sm border border-gray-200 w-full"/> 
-            </div>
+      <!-- Row 2 -->
+      <tr class="bg-white">
+          <td class="px-4 py-2">
+              <i class="fa-solid fa-box fa-xl"></i>
+          </td>
+          <td class="px-4 py-2">২</td>
+          <td class="px-4 py-2">পুলিশ ক্লিয়ারেন্স সার্টিফিকেট এর জন্য আবেদন (আবেদন নম্বর: 16YLTJJ)</td>
+          <td class="px-4 py-2">
+              <p class="text-base font-bold">MD FORID MIAH</p>
+              <p class="text-base text-black-600">২০২৫-০১-০৭ ইং</p>
+          </td>
+          <td class="px-4 py-2">
+              <button id="openModal1" class="px-6 py-3 text-white bg-white-100 rounded-lg hover:bg-white-200">
+                  <i class="fa-solid fa-file-arrow-up fa-xl" style="color: #166f16;"></i>
+              </button>
+          </td>
+      </tr>
 
-            <div>
-              <p class="text-base font-bold mb-2">রোল নম্বর:</p>
-              <input class="bg-white h-12 rounded-sm border border-gray-200 w-full"/> 
-            </div>
+      <!-- Row 3 -->
+      <tr class="bg-white">
+          <td class="px-4 py-2">
+              <i class="fa-solid fa-box fa-xl"></i>
+          </td>
+          <td class="px-4 py-2">৩</td>
+          <td class="px-4 py-2">পুলিশ ক্লিয়ারেন্স সার্টিফিকেট এর জন্য আবেদন (আবেদন নম্বর: 16YLTJJ)</td>
+          <td class="px-4 py-2">
+              <p class="text-base font-bold">MD FORID MIAH</p>
+              <p class="text-base text-black-600">২০২৫-০১-০৭ ইং</p>
+          </td>
+          <td class="px-4 py-2">
+              <button id="openModal1" class="px-6 py-3 text-white bg-white-100 rounded-lg hover:bg-white-200">
+                  <i class="fa-solid fa-file-arrow-up fa-xl" style="color: #166f16;"></i>
+              </button>
+          </td>
+      </tr>
 
-            <div>
-              <p class="text-base font-bold mb-2">রেজিষ্ট্রেশন নম্বর:</p>
-              <input class="bg-white h-12 rounded-sm border border-gray-200 w-full"/> 
-            </div>
-            
-            <div>
-              <p class="text-base font-bold mb-2">পাসের বছর:</p>
-              <input class="bg-white h-12 rounded-sm border border-gray-200 w-full"/> 
-            </div>
-            <button class="bg-lime-600 text-white mt-8 font-bold rounded-sm h-12 w-full">যাচাই করুন</button>
+  </tbody>
+</table>
+
+<!-- Sobar nicher box -->
+<div class="flex sm:flex-1 md:flex-2 lg:flex-3 flex-col w-full h-64 bg-white-100 p-4 mx-4">
+  <div class="flex flex-1 justify-end bottom-0 right-0 items-end gap-0.5">
+      <div class="flex flex-row justify-start bg-white h-14 w-40 rounded-none p-4 font-bold border border-white-600 text-base mx-2">
+          <div class="flex items-center justify-between">
+              <i class="fa-solid fa-angles-left fa-xl"></i>
+              <p>পূর্ববর্তী</p>
           </div>
-      
-          <!-- Testing Section -->
-          <div class="flex  justify-between gap-4 my-4">
-            <!-- Box 1 -->
-            <div class="flex flex-col bg-gray-50 rounded-sm border border-gray-200 p-4 flex-grow w-full lg:w-1/2">
-              <p>Data Not Found</p>
-            </div>
-
-            <!-- For sloving the issue of blank space of the slide -->
-          
-            <!-- Box 2 (Image Slider) -->
-            <div class="relative flex-grow w-full lg:w-1/2 h-auto">
-              <div class="relative rounded-sm border border-gray-200 overflow-hidden">
-                <!-- Carousel Wrapper -->
-                <div id="carousel" class="flex transition-transform duration-300 ease-in-out"> 
-                  <!-- First image (larger size) -->
-                   <div class="carousel-item w-2/3 flex-shrink-0">
-                    <img src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg" alt="Image 1" class="object-cover w-full h-full">
-                  </div>
-                  
-                  <!-- Second image -->
-                  <div class="carousel-item w-1/3 flex-shrink-0">
-                    <img src="https://images.unsplash.com/photo-1546587348-d12660c30c50?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image 2" class="object-cover w-full h-full">
-                  </div>
-                  
-                  <!-- Third image -->
-                  <div class="carousel-item w-1/3 flex-shrink-0">
-                    <img src="https://images.unsplash.com/photo-1441239372925-ac0b51c4c250?q=80&w=1846&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image 3" class="object-cover w-full h-full">
-                  </div>
-
-                   <!-- Fourth Image -->
-                  <div class="carousel-item w-2/3 flex-shrink-0">
-                    <img src="https://images.unsplash.com/photo-1516475429286-465d815a0df7?q=80&w=1910&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image 1" class="object-cover w-full h-full">
-                  </div>
-                  
-                  <!--  fifth Image  -->
-                  <div class="carousel-item w-1/3 flex-shrink-0">
-                    <img src="https://images.unsplash.com/photo-1500828131278-8de6878641b8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image 2" class="object-cover w-full h-full">
-                  </div>
-                  
-                  <!--  sixth Image  -->
-                  <div class="carousel-item w-1/3 flex-shrink-0">
-                    <img src="https://images.unsplash.com/photo-1585016495481-91613a3ab1bc?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image 3" class="object-cover w-full h-full">
-                  </div>
-                </div>
-               
-                <!-- Carousel Controls(button--previous and next) -->
-                 <button id="prev" class="absolute top-1/2 left-4 transform -translate-y-1/2 bg-gray-100 text-black p-2 rounded-full hover:bg-gray-200">&#8249;</button>
-                <button id="next" class="absolute top-1/2 right-4 transform -translate-y-1/2 bg-gray-100 text-black p-2 rounded-full hover:bg-gray-200">&#8250;</button>
-              </div>
-            </div>
-          </div>
-      
-          <!-- Footer of popup page -->
-          <div class="flex justify-end items-center gap-4">
-            <div class="flex bg-gray-200 rounded-lg px-4 py-2 font-bold border border-gray-200 text-base">
-              <i class="fa-regular fa-circle-xmark text-red-600 m-1"></i>
-              <p>বাতিল করা হয়েছে</p>
-            </div>
-            <div class="flex bg-white rounded-sm px-4 py-2 font-bold border border-gray-200 text-base">
-              <i class="fa-solid fa-user fa-lg m-2 p-0.5"></i>
-              <p>অ্যাপোস্টিল তৈরি করুন</p>
-            </div>
-          </div>
-        </div>
       </div>
-      
-    </td>
-  </tr>
-                        <!-- Row 2 -->
-                        <tr class="bg-white">
-                            <td class="px-4 py-2"><i class="fa-solid fa-box fa-xl"></i></td>
-                            <td class="px-4 py-2">২</td>
-                            <td class="px-4 py-2">পুলিশ ক্লিয়ারেন্স সার্টিফিকেট এর জন্য আবেদন (আবেদন নম্বর: 16YLTJJ)</td>
-                            <td class="px-4 py-2">
-                              <p class="text-base font-bold">MD FORID MIAH</p>
-                              <p class="text-base text-black-600">২০২৫-০১-০৭ ইং</p>
-                            </td>
-                            <td class="px-4 py-2">
-                              <button id="openModal1" class="px-6 py-3 text-white bg-white-100 rounded-lg hover:bg-white-200">
-                                <i class="fa-solid fa-file-arrow-up fa-xl" style="color: #166f16;"></i>
-                              </button>
-                            </td>
-                          </tr>
-                        <!-- Row 3 -->
-                        <tr class="bg-white">
-                          <td class="px-4 py-2"><i class="fa-solid fa-box fa-xl"></i></td>
-                          <td class="px-4 py-2">৩</td>
-                          <td class="px-4 py-2">পুলিশ ক্লিয়ারেন্স সার্টিফিকেট এর জন্য আবেদন (আবেদন নম্বর: 16YLTJJ)</td>
-                          <td class="px-4 py-2">
-                            <p class="text-base font-bold">MD FORID MIAH</p>
-                            <p class="text-base text-black-600">২০২৫-০১-০৭ ইং</p>
-                          </td>
-                          <td class="px-4 py-2">
-                            <button id="openModal1" class="px-6 py-3 text-white bg-white-100 rounded-lg hover:bg-white-200">
-                              <i class="fa-solid fa-file-arrow-up fa-xl" style="color: #166f16;"></i>
-                            </button>
-                          </td>
-                        </tr>
 
-                      
-                          
-                                  </div>
-                                </div>
-                              </div>
-                            </td>
-                          </tr>
-                          
-                    </tbody>
-                </table>
-                
+      <div class="flex flex-row justify-start bg-white h-14 w-14 rounded-none p-4 font-bold border border-white-600 text-base mx-2">
+          <div class="flex items-center justify-between">
+              <p>১</p>
+              <i class="fa-solid fa-angle-down  text-gray-500"></i>
+          </div>
+      </div>
 
+      <div class="flex flex-row justify-end bg-white h-14 w-40 rounded-none p-4 font-bold border border-white-600 text-base mx-2">
+          <div class="flex items-center justify-between">
+              <p>পরবর্তী</p>
+              <i class="fa-solid fa-angles-right fa-xl"></i>
+          </div>
+      </div>
+  
+  </div>
 
-                
-                    <!-- Sobar nicher box -->
+</div>
+</main>
 
-                    <div class="flex sm:flex-1 md:flex-2 lg:flex-3 flex-col w-full h-64 bg-white-100 p-4 mx-4">
-                        <div class="flex flex-1 justify-end  bottom-0 right-0 items-end gap-0.5">
-                           
-                            <div class="flex flex-row justify-start bg-white h-14 w-40 rounded-none p-4 font-bold border border-white-600 text-base mx-2">
-                                <div class="flex items-center justify-between">
-                                    <i class="fa-solid fa-angles-left fa-xl"></i>
-                                    <p>পূর্ববর্তী</p>
-                                    
-                                </div>
-                            </div> 
-
-                            <!-- New implementation -->
-                            
-                            <div class="flex flex-row justify-start bg-white h-14 w-14 rounded-none p-4 font-bold border border-white-600 text-base mx-2">
-                                <div class="flex items-center justify-between">
-                                 
-                                    <p>১</p>
-                                    <i class="fa-solid fa-angle-down  text-gray-500"></i>
-                                    
-                                </div>
-                            </div> 
-                            <div class="flex flex-row justify-end bg-white h-14 w-40 rounded-none p-4 font-bold border border-white-600 text-base mx-2">
-                                <div class="flex items-center justify-between">
-                                    <p>পরবর্তী</p>
-                                    <i class="fa-solid fa-angles-right fa-xl"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>        
-            </div>
-        </main>
-     </div>
-    </div>      
+              
+        <!-- </main> -->
+     <!-- </div>
+    </div>       -->
 
     <!-- Footer -->
     <div class="flex flex-col h-screen">
