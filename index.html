@@ -22,9 +22,9 @@
 <body>
   <div class="flex overflow-hidden">
 
-        <!-- Fixed Sidebar Container -->
-        <div class="hidden md:flex fixed top-0 left-0 h-screen">
-
+      <!-- Fixed Sidebar Container -->
+      <div class="hidden md:flex fixed top-0 left-0 h-screen">
+      
             <!-- First Sidebar -->
             <div id="firstSidebar" class="w-28 bg-gray-200 text-gray-700 h-screen">
                 <div class="flex-1 p-4 space-y-4">
@@ -44,7 +44,7 @@
                 </div>
             </div>
    
-        </div>
+      </div>
 
         <!--  toggle div  -->
         <div class="overlay"></div>
@@ -67,20 +67,20 @@
         </div>
  
        <!-- Checking done till here -->
+
        <!-- Main Content Area -->
-       <div class="flex-grow  md:pl-[280px] another-div">
-        <!-- Header -->
-        <header class="flex items-center justify-between bg-white text-black p-4 shadow-md">
-            <!-- Menu Toggle -->
+        <div class="flex-grow md:pl-[280px] another-div">
+         <!-- Header -->
+          <header class="flex items-center justify-between bg-white text-black p-4 shadow-md">
             <div class="flex  md:hidden items-center">
                 <button class="toggle-btn">☰</button>
-               
             </div>
+
             <div class="hidden md:flex items-center">
                  <i class="fa-solid fa-bars fa-2xl mx-4 cursor-pointer" id="sidebarToggle-menu"></i>
             </div>
              
-                <!-- Right Section: User Info with Dropdown -->
+                <!-- Right portion of third section-->
                 <div class="flex items-center bg-gray-100 p-2 rounded-lg">
                   <i class="fa-solid fa-user fa-2xl mr-2"></i>
                   <div class="flex flex-col text-base mr-2">
@@ -105,8 +105,9 @@
                     </span>
                   </div>
                 </div>
-              </header>
-   
+          </header>
+
+      <!-- checking till here -->
             <!-- First Section  -->
             <main class=" flex-1 p-4">
                 <div class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-6 w-full">
@@ -189,32 +190,26 @@
                     </div>
                 </div>
             </div>
-       
-           
+
+          <!-- Checking done till here(Recent) -->
             <!-- Third Section(Main) -->
              <!-- boro box r div -->
              
-           <div class="flex sm:flex-1 md:flex-2 lg:flex-3 flex-col justify-between bg-white h-60 w-full rounded-none p-2 font-bold border border-white-600 text-base">
-
-
-                <!-- First portion of Third Section(Complete) -->
-                <div class="flex sm:flex-1 md:flex-2 lg:flex-3 flex-row gap-2 w-full">
-
-
+             <div class="flex sm:flex-1 md:flex-2 lg:flex-3 flex-col justify-between bg-white h-60 w-full rounded-none p-2 font-bold border border-white-600 text-base">
+                  <div class="flex sm:flex-1 md:flex-2 lg:flex-3 flex-row gap-2 w-full">
                     <div class="flex flex-col justify-start bg-white h-14 w-80 rounded-none  p-2.5 font-bold border border-gray-200 text-base m-1.5 ">
                         <div class="relative flex items-center justify-between">
-                       
                           <select
                             class="appearance-none bg-white font-bold text-base w-full h-full border-none focus:outline-none cursor-pointer"
                           >
                             <option value="আবেদন নম্বর দ্বারা" selected>আবেদন নম্বর দ্বারা</option>
                          
-                        </select>
+                          </select>
                           <span class="absolute inset-y-0 right-2 flex items-center pointer-events-none">
                             <i class="fa-solid fa-angle-down fa-xl text-gray-500"></i>
                           </span>
                         </div>
-                      </div>
+                    </div>
                    
                     <div class="flex flex-col justify-start bg-white h-14 w-80 rounded-none  p-2.5 font-bold border border-gray-200 text-base m-1.5 ">
                         <div class="relative flex items-center justify-between">
@@ -229,42 +224,37 @@
                             <i class="fa-solid fa-angle-down fa-xl text-gray-500"></i>
                           </span>
                         </div>
-                      </div>
-                   
-                </div>
-
-
-
+                    </div>   
+                  </div>
 
                 <!-- Testing for table contant -->
                 <table class="table-auto w-full border-collapse">
                     <thead>
-                        <tr class="bg-gray-100">
+                      <tr class="bg-gray-100">
                             <th class="px-4 py-2 text-left">প্রতীকচিহ্ন</th>
                             <th class="px-4 py-2 text-left">ক্রমিক</th>
                             <th class="px-4 py-2 text-left">সেবার নাম</th>
                             <th class="px-4 py-2 text-left">আবেদনের তথ্য</th>
                             <th class="px-4 py-2 text-left">সিদ্ধান্ত</th>
-                        </tr>
+                      </tr>
                     </thead>
+
                     <tbody>
-
-
-                        <!-- Row 1 -->
-<tr class="bg-white">
-    <td class="px-4 py-2">
-      <i class="fa-solid fa-box fa-xl"></i>
-    </td>
-    <td class="px-4 py-2">১</td>
-    <td class="px-4 py-2">
-      পুলিশ ক্লিয়ারেন্স সার্টিফিকেট এর জন্য আবেদন (আবেদন নম্বর: 16YLTJJ)
-    </td>
-    <td class="px-4 py-2">
-      <p class="text-base font-bold">MD FORID MIAH</p>
-      <p class="text-base text-black-600">২০২৫-০১-০৭ ইং</p>
-    </td>
-    <td class="px-4 py-2">
-
+                       
+                 <!-- Row 1 -->
+                   <tr class="bg-white">
+                      <td class="px-4 py-2">
+                        <i class="fa-solid fa-box fa-xl"></i>
+                      </td>
+                      <td class="px-4 py-2">১</td>
+                        <td class="px-4 py-2">
+                          পুলিশ ক্লিয়ারেন্স সার্টিফিকেট এর জন্য আবেদন (আবেদন নম্বর: 16YLTJJ)
+                        </td>
+                        <td class="px-4 py-2">
+                         <p class="text-base font-bold">MD FORID MIAH</p>
+                         <p class="text-base text-black-600">২০২৫-০১-০৭ ইং</p>
+                        </td>
+                       
 
       <!-- Icon of popup functionality -->
       <button id="openModal" class="px-6 py-3 text-white bg-white-100 rounded-lg hover:bg-white-200">
@@ -344,9 +334,6 @@
               <p>Data Not Found</p>
             </div>
 
-
-            <!-- For sloving the issue of blank space of the slide -->
-         
             <!-- Box 2 (Image Slider) -->
             <div class="relative flex-grow w-full lg:w-1/2 h-auto">
               <div class="relative rounded-sm border border-gray-200 overflow-hidden">
