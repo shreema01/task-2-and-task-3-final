@@ -247,12 +247,16 @@
                       </td>
                     <td>
                       <!-- Icon of popup functionality -->
-                      <button id="openModal" class="px-6 py-3 text-white bg-white-100 rounded-lg hover:bg-white-200">
+                      <button id="openModal" class=" px-6 py-3 text-white bg-white-100 rounded-lg hover:bg-white-200">
                         <i class="fa-solid fa-file-arrow-up fa-xl" style="color: #166f16;"></i>
                       </button>
+                      <!-- <button id="openModal" class="px-6 py-3 text-white bg-white-100 rounded-lg hover:bg-white-200">
+                        <i class="fa-solid fa-file-arrow-up fa-xl" style="color: #166f16;"></i>
+                      </button> -->
                     </td>
   
                     <!-- Popup functionality -->
+                
                     <div id="myModal" class="fixed inset-0 bg-black bg-opacity-50 hidden flex justify-center items-center overflow-hidden">
                       <div id="modalContent" class="relative bg-white px-6 py-6 rounded-lg w-4/5 lg:w-2/3 h-5/6 ease-in-out duration-200 overflow-auto">
                         <div class="flex justify-between items-center mb-4">
@@ -347,8 +351,26 @@
                       </div>
                
                 <!-- Carousel Controls(button--previous and next) -->
-                    <button id="prev" class="absolute top-1/2 left-4 transform -translate-y-1/2 bg-gray-100 text-black p-2 rounded-full hover:bg-gray-200">&#8249;</button>
-                    <button id="next" class="absolute top-1/2 right-4 transform -translate-y-1/2 bg-gray-100 text-black p-2 rounded-full hover:bg-gray-200">&#8250;</button>
+                <button id="prev" 
+        class="absolute top-1/2 left-4 transform -translate-y-1/2 
+               bg-gray-100 text-black w-8 h-8
+               rounded-full flex items-center justify-center 
+               hover:bg-gray-200 shadow-md">
+               <i class="fa-solid fa-angle-left"></i>
+    
+</button>
+
+<button id="next" 
+        class="absolute top-1/2 right-4 transform -translate-y-1/2 
+               bg-gray-100 text-black w-8 h-8 
+               rounded-full flex items-center justify-center 
+               hover:bg-gray-200 shadow-md">
+               <i class="fa-solid fa-angle-right"></i>
+   
+</button>
+
+                
+                  
                   </div>
                </div>
            </div>
@@ -385,9 +407,12 @@
 
     <td>
       <!-- Icon of popup functionality -->
-      <button id="openModal" class="px-6 py-3 text-white bg-white-100 rounded-lg hover:bg-white-200">
+      <button class="openModal px-6 py-3 text-white bg-white-100 rounded-lg hover:bg-white-200">
         <i class="fa-solid fa-file-arrow-up fa-xl" style="color: #166f16;"></i>
       </button>
+      <!-- <button id="openModal" class="px-6 py-3 text-white bg-white-100 rounded-lg hover:bg-white-200">
+        <i class="fa-solid fa-file-arrow-up fa-xl" style="color: #166f16;"></i>
+      </button> -->
     </td>
   
              <!-- Row-3 -->
@@ -405,9 +430,12 @@
     </td>
   <td>
     <!-- Icon of popup functionality -->
-    <button id="openModal" class="px-6 py-3 text-white bg-white-100 rounded-lg hover:bg-white-200">
+    <button class="openModal px-6 py-3 text-white bg-white-100 rounded-lg hover:bg-white-200">
       <i class="fa-solid fa-file-arrow-up fa-xl" style="color: #166f16;"></i>
     </button>
+    <!-- <button id="openModal" class="px-6 py-3 text-white bg-white-100 rounded-lg hover:bg-white-200">
+      <i class="fa-solid fa-file-arrow-up fa-xl" style="color: #166f16;"></i>
+    </button> -->
   </td>
   </tr>
      
@@ -556,7 +584,7 @@
     window.onload = function() {
         document.querySelector('select').blur();
     };
-
+  
  
     </script>
            
