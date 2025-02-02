@@ -35,8 +35,6 @@
   }
 
   .toggle-btn {
-     
-    
     border: none;
     padding: 10px 15px;
     cursor: pointer;
@@ -100,7 +98,7 @@ body {
   display: inline-block;
   white-space: nowrap;
   animation: scroll-page 10s linear infinite;
-} */
+}*/
 
 /* @keyframes scroll-page {
   0% { transform: translateX(0); }
