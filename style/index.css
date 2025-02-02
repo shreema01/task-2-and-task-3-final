@@ -60,3 +60,49 @@
     opacity: 1;
     visibility: visible;
   }
+  /* New testing for horizontal scrolling full screen */
+  /* html, body {
+    height: 100%;
+    margin: 0;
+    overflow-x:auto; /* Enables horizontal scrolling 
+}*/ 
+  
+
+/* .container {
+    width: 200%; /* Content width larger than viewport 
+    height: 100%;
+    background-color: lightblue;
+} */
+
+/* Media query for small screens */
+/* @media (max-width: 768px) {
+    .container {
+        width: 150%; /* Adjust width for smaller screens 
+    }
+} */
+
+/* Media query for extra small screens */
+/* @media (max-width: 480px) {
+    .container {
+        width: 120%; /* Further adjust width for very small screens 
+    }
+} */
+
+/* new testing for horizontal scrolling  */
+body {
+   width: max-content; /*Ensures content can scroll horizontally */
+  /* overflow-x: hidden; Hides the scrollbar */
+  /* white-space: nowrap; /* Keeps content in one line   */
+  /* overflow-x: hidden; Hides the scrollbar */
+} 
+
+/* .scroll-container {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll-page 10s linear infinite;
+} */
+
+/* @keyframes scroll-page {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); } /* Adjust based on content 
+} */
