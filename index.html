@@ -48,13 +48,36 @@
       <!-- First Sidebar -->
       <div id="firstSidebar" class="w-28 bg-gray-200 text-gray-700 h-screen">
         <div class="flex-1 p-4 space-y-4">
-          <i class="fa-solid fa-table fa-2xl block px-6 py-2"></i>
-          <a href="#" class="block px-2 py-2 rounded-lg hover:bg-gray-400">ড্যাশবোর্ড</a>
+            <i class="fa-solid fa-table fa-2xl block px-6 py-2"></i>
+            <a href="#" class="block px-2 py-2 rounded-lg hover:bg-gray-400">ড্যাশবোর্ড</a>
         </div>
-      </div>
+
+        <div class="flex-1 p-4 space-y-4">
+            <i class="fa-solid fa-table fa-2xl block px-6 py-2"></i>
+            <a href="#" class="block px-2 py-2 rounded-lg hover:bg-gray-400">অপশন</a>
+        </div>
+    </div>
 
       <!-- Second Sidebar -->
       <div id="secondSidebar" class="w-[150px] bg-gray-100 text-gray-700 h-screen">
+        <div class="flex-1 p-2">
+            <div class="flex flex-col items-center">
+                <img src="images/header.png" class="h-auto w-[150px] px-0" alt="Header Image">
+                <p class="mt-4 font-bold text-start p-2">-ড্যাশবোর্ড</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <p class="mt-4 font-bold text-start">.অফিস নির্বাচন</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <p class="mt-4 font-bold text-start">.সেবা নির্বাচন </p>
+            </div>
+            <div class="flex flex-col items-center">
+                <p class="mt-4 font-bold text-start">.আবেদন খুঁজুন</p>
+            </div>
+        </div>
+    </div>
+</div>
+      <!-- <div id="secondSidebar" class="w-[150px] bg-gray-100 text-gray-700 h-screen">
         <div class="flex-1 p-4">
           <div class="flex flex-col items-center">
             <img src="images/header.png" class="h-auto w-[150px] px-0" alt="Header Image">
@@ -62,7 +85,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!--  toggle div  -->
     <div class="overlay"></div>
@@ -95,13 +118,35 @@
           <i class="fa-solid fa-bars fa-2xl mx-4 cursor-pointer" id="sidebarToggle-menu"></i>
         </div>
 
-        <!-- Right Section of the header section  -->
+          <!-- Right Section of the header section  -->
+          <div class="hidden md:flex  items-center bg-gray-100 p-2 rounded-lg">
+            <i class="fa-solid fa-user fa-2xl mr-2"></i>
+            <div class="flex flex-col text-base mr-2">
+                <p>Md Shamim Hasan</p>
+            </div>
+            <!-- Dropdown with Select -->
+                
+            <div class="relative">
+                   
+                <select id="countries" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-32 p-2.5 dark:bg-gray-500 dark:border-gray-400 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                  <option selected>প্রোফাইল</option>
+                  <option value="সেটিংস">সেটিংস</option>
+                  <option value="লগআউট">লগআউট</option>
+                  
+                </select>
+           
+            </div>
+           
+        </div>
+    </header>
+
+        <!-- Right Section of the header section 
         <div class="hidden md:flex  items-center bg-gray-100 p-2 rounded-lg">
           <i class="fa-solid fa-user fa-2xl mr-2"></i>
           <div class="flex flex-col text-base mr-2">
             <p>Md Shamim Hasan</p>
           </div>
-          <!-- Dropdown with Select -->
+           Dropdown with Select
           <div class="relative">
             <select
               class="appearance-none bg-gray-100 text-black border-none text-base rounded-lg py-1 pl-2 pr-8 cursor-pointer focus:outline-none">
@@ -114,7 +159,7 @@
             </span>
           </div>
         </div>
-      </header>
+      </header> -->
 
 
       <!-- First Section  -->
