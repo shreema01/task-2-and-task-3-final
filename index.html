@@ -345,7 +345,25 @@
                       </div>
 
                       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
-                        <div>
+                        <div class="relative flex flex-col ">
+                          <p class="text-base font-bold ">পরীক্ষার নাম নির্বাচন করুন:</p>
+                          <div class="relative">
+                            <select id="exam" class="bg-gray-50 border border-gray-300 text-black-50 text-sm rounded-none focus:ring-blue-500 focus:border-blue-300 block w-32 p-1.5 dark:bg-gray-500 dark:border-gray-200 dark:placeholder-gray-200 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                              <option selected>SSC</option>
+                              <option value="HSC">HSC</option>
+                            </select>
+                          </div>
+                        </div>
+                        
+                        <!-- <div class="relative flex items-center justify-between m-4 p-0.5 ">
+                         
+                          <select id="exam" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-64 m-2.5 p-2.5 dark:bg-gray-500 dark:border-gray-400 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                            <option selected>SSC</option>
+                            <option value="HSC">HSC</option>
+                          </select>
+                        </div> -->
+                        
+                        <!-- <div>
                           <p class="text-base font-bold mb-2">পরীক্ষার নাম :</p>
                           <div class="relative bg-white rounded-sm border border-gray-200">
                             <select
@@ -356,7 +374,7 @@
                               <i class="fa-solid fa-angle-down fa-lg text-gray-500"></i>
                             </span>
                           </div>
-                        </div>
+                        </div> -->
                        
                         <div>
                           <p class="text-base font-bold mb-2">বোর্ডের নাম:</p>
@@ -519,28 +537,52 @@
           
           <!-- Sobar nicher box -->
           <div class="flex sm:flex-1 md:flex-2 lg:flex-3 flex-col w-full h-64 bg-white-100 p-4 mx-4">
-            <div class="flex flex-1 justify-end  bottom-0 right-0 items-end gap-0.5">
+            <div class="flex flex-1 justify-end  bottom-0 right-0 items-end gap-0.5"></div>
+            <div class="flex items-center justify-end gap-4">
+              <button class="border border-gray-300 px-4 py-2 text-sm">« পূর্ববর্তী</button>
+              <select class="border border-gray-300 text-sm px-4 py-2 ">
+                <option selected>1</option>
+                <option>2</option>
+                <option>3</option>
+              </select>
+              <button class="border border-gray-300 px-4 py-2 text-sm">পরবর্তী »</button>
+            </div>
+            <!-- </div>
+            </div> -->
+            
+          <!-- </div> -->
+            
+            <!-- <div class="flex flex-1 justify-end  bottom-0 right-0 items-end gap-0.5">
               <div
                 class="flex flex-row justify-start bg-white h-14 w-40 rounded-none p-4 font-bold border border-white-600 text-base mx-2">
                 <div class="flex items-center justify-between text-sm text-black-100">
                   <i class="fa-solid fa-angles-left fa-xl"></i>
                   <p>পূর্ববর্তী</p>
                 </div>
-              </div>
-
-              <div
+              </div> -->
+              
+              <!-- <div class="relative flex items-center justify-between mb-4 p-1.5">
+                           
+                <select id="countries" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-12 m-5 p-1  dark:bg-gray-500 dark:border-gray-400 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                  <option selected>১</option>
+                  
+                </select>
+        </div> -->
+              <!-- <div
                 class="flex flex-row justify-start bg-white h-14 w-14 rounded-none p-4 font-bold border border-white-600 text-base mx-1.5">
                 <div class="flex items-center justify-between text-sm text-black-100">
                   <p class="mr-3">১</p>
                   <i class="fa-solid fa-angle-down  text-gray-500"></i>
                 </div>
-              </div>
-              <div
+              </div> -->
+              <!-- <div
                 class="flex flex-row justify-end bg-white h-14 w-40 rounded-none p-4 font-bold border border-white-600 text-base mx-2">
                 <div class="flex items-center justify-between text-sm text-black-100">
                   <p>পরবর্তী</p>
                   <i class="fa-solid fa-angles-right fa-xl"></i>
-                </div>
+                </div> -->
+                <!-- new add -->
+              <!-- </div> -->
               </div>
             </div>
           </div>
